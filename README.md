@@ -2,9 +2,6 @@
 
 ## Результат вы можете посмотреть тут
 
-[Работа на HTML & CSS по курсу Владилена Минина]
+[Мое работа на HTML & CSS по курсу Владилена Минина](https://spokeme.github.io/html_css_vladilen_minin/)
 
 
-P.S.
-# html_css_vladlen_minin
-Курс HTML CSS Владлен Минин
