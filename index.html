@@ -7,100 +7,127 @@
     <title>Резюме - Коробов Иван Евгеньевич</title>
     <meta name="decription" content="Сайт-Резюме о Коробове Иван Евгеньевиче">
     <meta name="keywords" content="сайт резюме коробов иван евгеньевич">
+
+    <link rel="stylesheet" href="style.css" class="">
 </head>
 <body>
-
-    <img src="avatar.jpg" width="200">
-   <header class="header" id="header">
-     <h1>Коробов Иван Евгеньевич</h1>
-    </header>
-   <article id="article" class="article">
-        <p>Я <strong>junior FrontEnd-программист</strong>, владею технологиями <strong>html, css, javascript</strong>.</p>
-        <p>Люблю свою <em>семью</em>.<br> Нравится <em>путешествовать, заниматься спортом, маркетинг и программирование</em></p>
-    </article>
-    <nav id="navigation" class="navigation">
-        <p><h4>Список социальных сетей:</h4></p>
-        <p><a href="" target="_blank">Telegram</a> | <a href="" target="_blank">VKontakte</a> | <a href="" target="_blank">Instagram</a></p>
-    </nav>
-    <h4>Мои хобби</h4>
-    <ol>
-        <li>Путешествия</li>
-        <li>Блоггинг</li>
-        <li>Самбо, Дзюдо</li>
-    </ol>
+<div class="container">
 
 
-    <h4>Опыт работы</h4>
-<table width="600">
-    <thead>
-        <tr>
-            <th>Название</th>
-            <th>Должность</th>
-            <th>Год</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>TM.ru - торговые марки</td>
-            <td>Frontend</td>
-            <td>2001-2003</td>
-        </tr>
-        <tr>
-            <td>Страховая компания "Отечество"</td>
-            <td>Frontend, Интернет-Маркетолог</td>
-            <td>2004-2005</td>
-        </tr>
-        <tr>
-            <td>Сеть точек по продаже футболок</td>
-            <td>Frontend, Интернет-Маркетолог</td>
-            <td>2006-2014</td>
-        </tr>
-        <tr>
-            <td>Оптово-розничная компания - Плитка/Обои</td>
-            <td>Интернет-Маркетолог</td>
-            <td>2015-2019</td>
-        </tr>
-        <tr>
-            <td>Decathlon.ru</td>
-            <td>Frontend, Интернет-Маркетолог</td>
-            <td>2020-2021</td>
-        </tr>
-    </tbody>
-</table>
-
-
-    <h4>Навыки</h4>
-    Emmet
-
-    <h4>Курсы</h4>
-    Практический javascript
-
-    <h4>Марафоны</h4>
-    5 проектов за 5 дней - Марафон по JavaScript Владлен Минина
-
-    <h4>Сертификаты</h4>
-    php - специалист.ру
-
-    <footer>
-    <hr>
-    <br>
-
-    <form action="">
-        <div>
-            <label for="name">Ваше имя:</label>
-            <input type="text" id="name" placeholder="Введите имя">
+    <div class="info">
+        <img src="avatar.jpg" class="avatar">
+        <div class="info-text">
+            <h1>Коробов Иван Евгеньевич</h1>
+        
+            <p><strong>Junior Frontend - программист</strong>, владею технологиями <strong>html, css, javascript</strong>.</p>
+            <p>Люблю свою <em>семью</em>.<br> Нравится <em>путешествовать, заниматься спортом<br>
+                Любимое занятие программирование и маркетинг.</em></p>
+      
+       
+            <p><h4>Список социальных сетей:</h4></p>
+            <p><a href="" target="_blank">Telegram</a> | <a href="" target="_blank">VKontakte</a> | <a href="" target="_blank">Instagram</a></p>
+        
         </div>
-        <div>
-            <label for="email">Ваш e-mail:</label>
-            <input type="email" id="email" placeholder="Введите e-mail">
+    </div>
+
+        <div class="card bg-yellow">
+            <h4>Мои хобби</h4>
+            <ol>
+                <li>Путешествия</li>
+                <li>Быстрое чтение, аудиокниги</li>
+                <li>3d-печать</li>
+                <li>Квадрокоптеры, БПЛА
+                <li>Футбол, Самбо, Дзюдо</li>
+            </ol>
         </div>
-        <div>
-            <label for="textarea">Ваше сообщение:</label>
-            <br>
-            <textarea id="textarea" cols="25" rows="5"></textarea>
+
+        <div class="card bg-red">
+            <h4>Опыт работы</h4>
+        <table class="table">
+            <!-- <thead>
+                <tr>
+                    <th>Название</th>
+                    <th>Должность</th>
+                    <th>Год</th>
+                </tr>
+            </thead> -->
+            <tbody>
+                <tr>
+                    <td>TM.ru - торговые марки</td>
+                    <td>Frontend</td>
+                    <td>2001-2003</td>
+                </tr>
+                <tr>
+                    <td>Страховая компания "Отечество"</td>
+                    <td>Frontend, Интернет-Маркетолог</td>
+                    <td>2004-2005</td>
+                </tr>
+                <tr>
+                    <td>Сеть точек по продаже футболок</td>
+                    <td>Frontend, Интернет-Маркетолог</td>
+                    <td>2006-2014</td>
+                </tr>
+                <tr>
+                    <td>Оптово-розничная компания - Плитка/Обои</td>
+                    <td>Интернет-Маркетолог</td>
+                    <td>2015-2019</td>
+                </tr>
+                <tr>
+                    <td>Decathlon.ru</td>
+                    <td>Frontend, Интернет-Маркетолог</td>
+                    <td>2020-2021</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+        
+        <div class="card bg-green">
+            <h4>Мои Курсы</h4>
+            <ul class="link-list">
+                <li>Практический JavaScript</li>
+                <li>HTML - Владлен Минин</li>
+                <li>CSS - Владлен Минин</li>            
+            </ul>
         </div>
-    <button type="submit">Отправить!</button>
-    </form>
-</footer>
+
+
+        <h4>Марафоны</h4>
+        5 проектов за 5 дней - Марафон по JavaScript от Владлена Минина (Senior Frontend-программист)
+
+        <h4>Навыки</h4>
+        Emmet
+
+        <h4>Сертификаты</h4>
+        php - специалист.ру
+
+        
+        <hr>
+        <br>
+
+        <form action="/" class="form">
+            <h2>Связаться со мной</h2>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="name">Ваше имя:</label>
+                    <input type="text" id="name" placeholder="Введите имя">
+                </div>
+                <div class="form-group">
+                    <label for="email">Ваш e-mail:</label>
+                    <input type="email" id="email" placeholder="Введите e-mail">
+                </div>
+            </div>
+                <div class="form-group">
+                    <label for="textarea">Ваше сообщение:</label>
+                    <br>
+                    <textarea id="textarea" cols="25" rows="5"></textarea>
+                </div>
+            
+        <button type="submit" class="btn">Отправить!</button>
+        </form>
+   
+     
+</div>
 </body>
 </html>
